@@ -1,0 +1,112 @@
+:root{
+  --dev-primary: #afd776;
+  /* --dev-secondary : #afd776; */
+  --dev-secondary : #c5a04a;
+  --white: #FFF;
+  --black: #1a1a1a;
+  --tangerine: #ffc93c;
+  --sky-blue: #9fd3c7;
+  --ocean-blue: #00aaa0;
+  /* --dev-secondary: #d1b6ae; */
+  /* --dev-secondary  : #c892c2;  */
+  /* --dev-secondary  : #d1b6ae; */
+  /* --dev-secondary  : #cacda2; */
+  /* --dev-primary  : #c7e0d8; */
+}
+.dev-btn{
+  background-color: var(--black);
+  color: var(--white);
+}
+a,a:hover{
+  color: #121212;
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.main {
+  height: 100vh;
+}
+.main input {
+  height: 48px;
+}
+.custom-control {
+  appearance: auto;
+}
+.header-nav-outer {
+  background-color: #fff;
+  box-shadow: 0 4px 20px 0 hsla(0,0%,59.6%,.2);
+}
+.header-nav {
+  background-color: #fff;
+}
+.caption-2 {
+  font-size: 18px;
+}
+.banner-image-outer{
+  height: 370px;
+  background-color: #121212;
+  padding: 44px 132px;
+}
+.banner-image {
+  /* aspect-ratio: 400/110; */
+  background-color: var(--dev-secondary);
+  border-radius: 10px;
+  font-size: 48px;
+}
+.profile-image {
+  width: 170px;
+  border-radius: 50%;
+  background-color: var(--dev-primary);
+  top: 102px;
+  left: 50px;
+}
+.profile-nav {
+  top: 341px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--dev-primary);
+  width: 70%;
+  border-radius: 10px;
+}
+.profile-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+.profile-nav li button{
+  font-size: 24px;
+}
+.profile-main{
+  margin-top: 60px;
+}
+.github-wrapper img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.left-wrapper{
+  top: 80px;
+}
+.left-wrapper ul{
+  list-style-type: none;
+}
+.left-wrapper li{
+  min-width: max-content;
+}
+.repo-cards .card{
+  background-color: var(--dev-primary);
+}
+.repo-cards svg{
+  /* fill: var(--white) */
+}
+.home-search{
+  height: 45px;
+}
+.home-search input{
+  width: 50%!important;
+}
+.profile-search{
+  height: 45px;
+  width: 400px;
+}
