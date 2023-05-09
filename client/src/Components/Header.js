@@ -11,7 +11,6 @@ const Header = () => {
             <button className="btn btn-primary" onClick={()=>{navigate('/user/login')}}>Login</button>
           </div>
         </div>
-        <h6 className='text-center'>Server will take a few minutes to restart..please refresh after sometime..</h6>
     </>
   )
 }
